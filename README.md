@@ -70,7 +70,11 @@ docker basic command with node and python
    
    start container with attach mode
    
-   docker attach CONTAINER-NAME
+   docker start -a node
+   
+   or
+   docker start node
+   docker attach node
    
    # to get help
    docker COMMAND --help
